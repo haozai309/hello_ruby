@@ -29,8 +29,20 @@ name.reverse.upcase
 
 #--------------------------------------
 
+40.to_s.reverse
+[12, 47, 35].max 
+
+books = {}
+books["Gravity's Rainbow"] = :splendid
+books["The Matrix"] = :quite_good
+books["More bit size"] = :medicore
+
+ratings = Hash.new { 0 }
+books.values.each { |rate| ratings[rate] += 1 }
 
 
+5.times {print "Odelay! "}
 
 
+Dir.entrie­s "/"
 
